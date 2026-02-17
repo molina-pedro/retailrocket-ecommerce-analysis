@@ -1,7 +1,7 @@
 ## Project Background
 
 ## Data Structure & Initial Checks
-<img width="1029" height="657" alt="Frame 14" src="https://github.com/user-attachments/assets/d071ecd5-836e-4c14-a2ff-51779e4a2848" />
+<img width="1029" height="657" alt="Frame 15" src="https://github.com/user-attachments/assets/5bc8ecfb-f109-4430-9973-791f052ef486" />
 
 ## Executive Summary
 **Overview of Findings**<br/>
