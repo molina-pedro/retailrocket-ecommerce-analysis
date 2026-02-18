@@ -142,10 +142,3 @@ The Power BI dashboard includes:
 
 ## Dashboard Preview
 ![E-Commerce Conversion Dashboard](ecommerce-conversion-dashboard-powerbi.png)
-
-## Author
-**[Your Name]**  
-Data Analyst | SQL • Power BI • Business Intelligence  
-
-- LinkedIn: *add link*  
-- Portfolio: *add link*
