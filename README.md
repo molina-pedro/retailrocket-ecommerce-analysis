@@ -1,10 +1,11 @@
-## Project Backgound
-This project analyzes customer behavior and conversion performance using the RetailRocket e-commerce clickstream dataset. 
+# E-Commerce Conversion Analysis (Power BI + SQL)
 
+## Project Background
+This project analyzes customer behavior and conversion performance using the RetailRocket e-commerce clickstream dataset.  
 The objective was to identify where users drop off in the purchase journey and highlight opportunities to improve on-site conversion.
 
-## Data Structure
-The RetailRocket dataset contains timestamped user interaction events, including:
+## Dataset
+The RetailRocket dataset contains timestamped interaction events, including:
 
 - Product views  
 - Add-to-cart actions  
@@ -16,63 +17,52 @@ Key tables used:
 - `item_properties` — product attributes and category history  
 - `category_tree` — hierarchical category structure  
 
-## Executive Summary
+## Data Preparation
+To support time-based analysis and accurate KPI reporting:
 
-****Overview of Findings****
-### 1. Conversion Funnel Performance
+- Converted Unix timestamps into a usable **Event Date** column  
+- Created an **Event Month** field for monthly trend analysis  
+- Validated event counts, visitor totals, and transaction logic prior to modeling  
 
-Funnel analysis shows:
+These steps enabled reliable aggregation and time-series visualization in Power BI.
 
-- High product view volume  
-- Significant disengagement prior to add-to-cart  
-- Very small percentage of visitors completing purchases
+## Approach
+- Explored behavioral activity and funnel metrics using **SQL**  
+- Modeled KPIs and conversion logic in **Power BI (DAX)**  
+- Built a stakeholder-focused dashboard showing funnel performance, monthly trends, and product-level insights  
 
-**Business implication:**  
-Early-stage persuasion and clarity are critical drivers of conversion.
+## Key Findings
 
-### 2. Customer Behavior Distribution
+### Conversion Funnel
+- Visitor-to-purchase conversion rate is approximately **0.8%**  
+- The largest drop-off occurs **before the add-to-cart stage**
 
-Event distribution indicates:
-- Browsing dominates user activity  
-- Add-to-cart and purchase events are comparatively rare
+### Monthly Trends
+- Product views peak mid-period and decline toward September  
+- Add-to-cart and transaction activity follow the same directional trend at a smaller scale  
+- Conversion performance remains consistently low across months, indicating **systemic friction rather than seasonal change**
 
-**Business implication:**  
-Improving **product page trust, messaging, and perceived value** could meaningfully increase downstream conversion.
+### Product Performance
+- Several **high-view products generate limited purchases**, suggesting pricing, UX, or trust-signal issues  
+- Transaction volume is concentrated among a small subset of products
 
-### 3. Product-Level Conversion Performance
-   Product analysis identified:
+## Business Impact
+Findings highlight opportunities to:
 
-- Multiple items with **high view counts but minimal purchases**  
-- Uneven conversion across the catalog  
+- Improve product page clarity, messaging, and trust signals  
+- Reduce friction in add-to-cart and checkout flows  
+- Optimize underperforming products through pricing or merchandising tests  
 
-**Potential causes include:**
-
-- Pricing misalignment  
-- Weak product presentation  
-- Insufficient trust signals 
-
-
-
-## Business Recommendations
-Based on the findings, the following actions are recommended:
-
-### 1. Strengthen Early-Stage Conversion
-- Improve product imagery, descriptions, and social proof  
-- Introduce urgency messaging or promotional framing  
-- Test pricing adjustments for underperforming items  
-
-### 2. Reduce Funnel Friction
-- Simplify add-to-cart and checkout flow  
-- Provide transparent shipping and return information  
-- Enable frictionless guest checkout  
-
-### 3. Optimize Low-Conversion Products
-- Conduct A/B testing on pricing and content  
-- Bundle weak performers with strong products  
-- Reassess merchandising strategy  
+These actions can increase conversion **without additional marketing spend**.
 
 ## Dashboard
 ![E-Commerce Conversion Dashboard](ecommerce-conversion-dashboard-powerbi.png)
 
 ## Tools
 **SQL · Power BI · DAX · Data Modeling · Business Analysis**
+
+## Author
+**[Your Name]**  
+Data Analyst  
+- LinkedIn: *add link*  
+- Portfolio: *add link*
