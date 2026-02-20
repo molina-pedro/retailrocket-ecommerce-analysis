@@ -68,5 +68,5 @@ These actions can increase conversion **without additional marketing spend**.
 ## Author
 **Pedro Molina**  
 Buisness Analyst  
-- [LinkedIn Profile](https://www.linkedin.com/in/pedro-molina-profile/)
+- [LinkedIn](https://www.linkedin.com/in/pedro-molina-profile/)
 - [Github Repositories](https://github.com/molina-pedro)
