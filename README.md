@@ -63,10 +63,11 @@ These actions can increase conversion **without additional marketing spend**.
 <img width="1930" height="1163" alt="dashboard" src="https://github.com/user-attachments/assets/3af2c54c-3c22-4d9d-94f8-0b07207e7520" />
 
 ## Tools
-**SQL · Power BI · DAX · Data Modeling · Business Analysis**
+**Power BI · DAX · Data Modeling · Business Analysis**
 
 ## Author
 **Pedro Molina**  
 Buisness Analyst  
 - [LinkedIn](https://www.linkedin.com/in/pedro-molina-profile/)
 - [Github Repositories](https://github.com/molina-pedro)
+- [Retail Rocket Data Source](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)
