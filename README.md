@@ -1,3 +1,7 @@
+
+<img width="2016" height="576" alt="rocket banner" src="https://github.com/user-attachments/assets/ce709eed-dde3-4ea0-bd51-2c58ce729273" />
+
+
 ## Project Background
 This project analyzes customer behavior and conversion performance using the RetailRocket e-commerce clickstream dataset.  
 The objective was to identify where users drop off in the purchase journey and highlight opportunities to improve on-site conversion.
@@ -15,13 +19,12 @@ Tables:
 - `item_properties` — product attributes and category history  
   
 ### Raw files
-
-<img width="4040" height="1844" alt="raw" src="https://github.com/user-attachments/assets/1b852dc6-81a3-4bd7-bc42-1a00e6869c7e" />
+<img width="4040" height="1844" alt="raw" src="https://github.com/user-attachments/assets/5c62f666-55fb-4eb5-a713-36a9a74fdd39" />
 
 ### View files
 Joined category_tree with events and item_properties into one table
 
-<img width="4040" height="1560" alt="Group 11" src="https://github.com/user-attachments/assets/3baf84a5-26ce-41f1-bf48-712f7af2d432" />
+<img width="4040" height="1560" alt="clean" src="https://github.com/user-attachments/assets/5d10fcbe-4bf0-4f4f-98d6-bc529867faeb" />
 
 
 ## Data Preparation
@@ -70,11 +73,8 @@ These actions can increase conversion **without additional marketing spend**.
 <img width="6268" height="4608" alt="Frame 4" src="https://github.com/user-attachments/assets/80a765ac-f953-47bd-b569-dc32eb562aa2" />
 
 ## Tools
-**Power BI · DAX · Data Modeling · Business Analysis**
+**SQL · Power BI · DAX · Data Modeling · Business Analysis**
 
-## Author
-**Pedro Molina**  
-Buisness Analyst  
-- [LinkedIn](https://www.linkedin.com/in/pedro-molina-profile/)
-- [Github Repositories](https://github.com/molina-pedro)
-- [Retail Rocket Data Source](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)
+## Links
+- [Data Source](https://www.kaggle.com/datasets/retailrocket/ecommerce-dataset)
+- [Next Project - Hospital Operation Performance Repository](https://github.com/molina-pedro/hospital-volunteer-operations-performance)
