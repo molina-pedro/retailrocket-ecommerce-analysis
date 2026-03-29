@@ -1,6 +1,4 @@
-
 <img width="900" height="258" alt="rocket banner 2" src="https://github.com/user-attachments/assets/68fb1f48-852a-48b0-a217-d349241a3598" />
-
 
 
 ## Executive Summary
@@ -91,4 +89,4 @@ To support time-based analysis and accurate KPI reporting:
 **Methods:** Funnel analysis, KPI design, data modeling, conversion analysis
 
 ## Link
-[Next Project - Hospital Operation Performance Repository](https://github.com/molina-pedro/hospital-volunteer-operations-performance)
+[Next Project - Hospital Operations Performance Analysis](https://github.com/molina-pedro/hospital-volunteer-operations-performance)
